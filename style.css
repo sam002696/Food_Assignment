@@ -4,8 +4,11 @@ body{
 .orangecolor{
     color: rgb(212, 164, 74);
 }
-h1{
-    font-size: 50px;
+h1,h2{
+    font-size: 40px;
+}
+p{
+    font-size: 15px;
 }
 .half-width{
     width: 50%;
@@ -16,17 +19,63 @@ h1{
 }
 .divider{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .linkbutton{
     text-decoration: none;
     background-image: linear-gradient(rgb(223, 223, 127),rgb(236, 127, 108));
     padding: 10px 40px;
-    border-radius:5px;
+    border-radius:20px;
     font-weight: 700;
+    font-size:25px ;
     color: white;
 }
 .top-banner{
     background-image: url(images/shapes/Frame\ 58.jpg);
     background-repeat: no-repeat;
 }
+.top-banner1{
+    background-image:url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+}
+.myrec-inner-div {
+    width: 33.33%;
+    box-shadow: 5px 5px 40px rgb(218, 212, 212);
+    /* background-color: red; */
+    margin: 40px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    justify-content: center;
+  }
+  .my-rec-images {
+    display: block;
+    text-align: center;
+  }
+  .myrec-inner-div img {
+    width: 100%;
+  }
+  .myrec-inner-div p {
+    text-align: justify;
+  }
+  .my-recipes {
+    margin-bottom: 50px;
+  }
+  .my-rec-head {
+    text-align: center;
+  }
+  .rec-title {
+    font-weight: bold;
+  }
+  footer{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 15px;
+  }
+  .ash{
+      color: rgb(114, 111, 111);
+  }
+  #footerp{
+      color: rgb(14, 54, 70);
+  }
